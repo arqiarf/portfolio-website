@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 80px;
+    background: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    user-select: none;
+}
+
+.nav-kiri {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #E0F2FE;
+    transition: ease-in-out 0.2s;
+}
+
+.nav-kiri:hover {
+    color: #64bbf5;
+    cursor: default;
+}
+
+.nav-kanan {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.nav-kanan li a {
+    text-decoration: none;
+    color: #E0F2FE;
+    transition: ease-in-out 0.2s;
+}
+
+.nav-kanan li a:hover {
+    color: #000000;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+    height: 865px;
+    background: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
+    text-align: center;
+    color: #E0F2FE;
+    font-size: 20px;
+}
+
+.home .isi-home {
+    margin-top: 280px;
+}
+
+.about {
+    height: 700px;
+    background: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
+    color: #E0F2FE;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about h1 {
+    letter-spacing: 1px;
+    transition: ease-in-out 0.2s;
+    cursor: default;
+    display: inline-block;
+    user-select: none;
+}
+
+.about h1:hover {
+    color: #111;
+}
+
+.about p {
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.about .about-paragraph {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 600px;
+}
+
+.contact {
+    height: 600px;
+    background: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
+    color: #E0F2FE;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.contact h1 {
+    margin-bottom: 40px;
+    transition: ease-in-out 0.2s;
+    cursor: default;
+    display: inline-block;
+    user-select: none;
+}
+
+.contact h1:hover {
+    color: #111;
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: #E0F2FE;
+}
+
+.nama-sosmed {
+    gap: 50px;
+}
+
+.sosmed {
+    gap: 42px;
+}
+
+.sosmed li {
+    margin-top: 10px;
+    padding: 25px 35px;
+    background: #191414;
+    border-radius: 20px;
+}
+
+#spotify {
+    color: #1DB954;
+    transition: ease-in-out 0.1s;
+}
+
+#spotify:hover {
+    color: #E0F2FE;
+}
+
+#instagram {
+    background: linear-gradient(
+    to right,
+    #833AB4,
+    #FD1D1D,
+    #FCAF45
+);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: ease-in-out 0.2s;
+}
+
+#instagram:hover {
+    background: #E0F2FE;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#tiktok {
+     background: linear-gradient(
+        to right,
+        #25F4EE,
+        #FE2C55
+);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: ease-in-out 0.2s;
+}
+
+#tiktok:hover {
+    background: #E0F2FE;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    background: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: 5px 0px 9px rgba(0, 0, 0, 0.3);
+}
+
+
+#home {
+    scroll-margin-top: 80px;
+}
+
+#about {
+    scroll-margin-top: 30vh;
+}
